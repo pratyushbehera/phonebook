@@ -1,0 +1,53 @@
+.phoneBook {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.phoneBook-header {
+  background-color: #00236d;
+  color: #fff;
+  padding: 20px;
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.react-tabs__tab {
+  list-style: none;
+  border: 1px solid;
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+.react-tabs__tab.react-tabs__tab--selected {
+  border: 1px solid #00236d;
+  background-color: #00236d;
+  color: #fff;
+}
+.react-tabs__tab:hover {
+  background-color: #00236d;
+  color: #fff;
+}
+.react-tabs__tab-panel--selected {
+  display: flex;
+  margin: 0 20px 10px;
+  border: 1px solid;
+  border-top: 10px solid #00236d;
+}
+
+.toDo{
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.text-center{
+  text-align: center;
+}

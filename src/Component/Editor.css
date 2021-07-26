@@ -1,0 +1,56 @@
+.editor{
+    width: 100%;
+    background-color: #acacac;
+}
+.editor-header{
+    height:40px;
+    background-color: #00236d;
+    color: #fff;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.editor-content{
+    margin:2%;
+    border:1px solid #000;
+    background-color: #fff;
+}
+
+/* Form Css */
+.half{
+    width:45%;
+    float: left;
+    margin-right: 2.5%;
+}
+.clear{
+    clear: both;
+}
+
+.form-group{
+    display: flex;
+    margin:2%;
+    justify-content: space-between;
+}
+
+.form-group label{
+    width: 50%;
+}
+
+.form-group input[type="text"],.form-group input[type="number"], .form-group select {
+    width: 50%;
+    height: 25px;
+}
+
+.editor-action{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.editor-action button{
+    margin:1%;
+}
+
+.error{
+    text-align: center;
+    color: rgb(245, 109, 109);
+}
